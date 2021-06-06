@@ -1,0 +1,237 @@
+body {
+    font-family: 'Saira', sans-serif;
+}
+
+header {}
+.socials {
+    background-color: #F3F0EB;
+    border-bottom: 1px solid #3333331f;
+}
+.text {}
+.text p {
+    margin: 0 !important;
+}
+.text p a{
+    text-decoration: none;
+    color: #333;
+    font-size: 15px;
+}
+.social-icons {}
+.nav-link {
+    padding: 0px 5px;
+}
+.social-icons ul {}
+.social-icons ul li {}
+.social-icons ul li a {
+    color: #333;
+    margin-right: 8px;
+    font-size: 15px;
+}
+.form-select {
+    color: #333;
+    background-color: #F3F0EB;
+    border: none;
+}
+nav {
+    border-bottom: 1px solid #333;
+}
+.bg-light {
+    background-color: #f3f0eb !important;
+}
+.navbar-collapse {
+    width: 100% !important;
+}
+.navcontainer {
+    position: relative;
+    padding: 54px 0px;
+}
+.navbar-nav {}
+.navbar-nav a{
+     display: inline-block;
+}
+.navbar-nav a.nav-hov::after {
+   content: ''; 
+   display: block;
+   width: 0;
+   height: 2.5px;
+   background: #b13e1c;
+   transition: width .4s;
+}
+.navbar-nav a.nav-hov:hover::after {
+    width: 100%;
+    transition: width 0.4s;
+}
+.navbar-nav a:hover{
+    color: #b13e1c !important;
+}
+.navbar-brand {
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%, 50%);
+}
+.navbar-brand img {}
+
+.sale-section{
+    background-color: #505050;
+    padding: 6px 0px;
+}
+.sale {}
+.sale p {
+    margin: 0;
+    color: #ec7f0f;
+    font-weight: 600;
+}
+.banner-section {}
+.banner {
+    background-image: url(../images/bannerbg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0px;
+    background-color: #33333387;
+    background-blend-mode: multiply;
+}
+.banner h2 {
+    color: white;
+    font-size: 31px;
+    font-weight: 400;
+}
+.products-section {
+    
+background-color: #F3F0EB;
+    
+padding-top: 60px;
+    
+padding-bottom: 60px;
+}
+.ps-heading {margin: 50px 0px;}
+.products-sort {
+    border: 1.5px solid;
+}    
+.product {
+    padding: 20px;
+}
+.sale-ann{
+    position: relative;
+}
+.sale-ann span{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: black;
+    color: white;
+    /* padding: 0px 20px; */
+    margin: 0;
+    z-index: 1;
+    height: 69px;
+    width: 44px;
+    padding-top: 25px;
+    font-size: 13px;
+    border-bottom-left-radius: 20px;
+}
+.product-details {}
+.product-img {
+    position: relative;
+}
+.product-img img{}
+.product-img img:nth-child(1){}
+.product-img img:nth-child(2){
+    position: absolute;
+    left: 73px;
+    bottom: 0;
+    transition: all 0.4s ease-in-out;
+    opacity: 0;
+}
+.product:hover .product-img img:nth-child(2){
+    left: 4px;
+    opacity: 1;
+}
+.qv {
+    /* background: black; */
+    /* padding: 2px 0px; */
+    position: relative;
+}
+.qv span{
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    padding: 1px 0px;
+    background: black;
+    width: 100%;
+    transition: all 0.4s linear;
+    transition-delay: 0.5s;
+    opacity: 0;
+}
+.qv span a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+.product:hover .qv span{
+    opacity: 1;
+    bottom: 19px;
+    left: 0px;
+}
+.info {}
+.info p {
+    margin: 0px;
+    margin-bottom: 4px;
+}
+.info p a{
+    text-decoration: none;
+    color: #333;
+}
+.sale-price {}
+.sale-price span {
+    text-decoration: line-through;
+}
+footer {
+    background-color: #F3F0EB;
+    padding-top: 63px;
+    padding-bottom: 17px;
+    border-top: 1px solid #333333c2;
+}
+.footer-content {}
+.footer-content ul{}
+.footer-content ul li{
+    list-style: none;
+    margin-bottom: 24px;
+    font-size: 13px;
+    color: #333333c2;
+}
+.footer-content ul li.f-hd {
+    
+font-size: 14px;
+    
+font-weight: 500;
+    
+color: #333;
+}
+.footer-content ul li a{
+    text-decoration: none;
+    color: #333333c2;
+    transition: 0.3s;
+}
+.footer-content ul li a:hover {
+    color: #b13e1c;
+}
+.footer-img {}
+.footer-img img {
+    
+width: 248px;
+}
+.form-label {}
+.form-control {
+    font-size: 12px;
+}
+.copyright {
+    border-top: 1px solid #33333329;
+}
+.copyright p {
+    font-size: 14px;
+    color: #333333c2;
+    margin: 0;
+    padding-top: 18px;
+}
